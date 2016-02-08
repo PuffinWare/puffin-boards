@@ -2444,88 +2444,6 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-fet">
-<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
-&lt;p&gt;
-Symbols changed according to IEC617&lt;p&gt; 
-All types, packages and assignment to symbols and pins checked&lt;p&gt;
-Package outlines partly checked&lt;p&gt;
-&lt;p&gt;
-JFET = junction FET&lt;p&gt;
-IGBT-x = insulated gate bipolar transistor&lt;p&gt;
-x=N: NPN; x=P: PNP&lt;p&gt;
-IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
-m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
-m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
-c: N=N-channel; P=P-Channel&lt;p&gt;
-GDSB: gate, drain, source, bulk&lt;p&gt;
-&lt;p&gt;
-by R. Vogg  15.March.2002</description>
-<packages>
-<package name="TO-92">
-<description>&lt;b&gt;TP 92&lt;/b&gt;</description>
-<wire x1="-2.0946" y1="-1.651" x2="-2.6549" y2="-0.254" width="0.127" layer="21" curve="-32.781"/>
-<wire x1="-2.6549" y1="-0.254" x2="-0.7863" y2="2.5485" width="0.127" layer="21" curve="-78.3185"/>
-<wire x1="0.7863" y1="2.5484" x2="2.0945" y2="-1.651" width="0.127" layer="21" curve="-111.1"/>
-<wire x1="-2.0945" y1="-1.651" x2="2.0945" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.2537" y1="-0.254" x2="-0.2863" y2="-0.254" width="0.127" layer="27"/>
-<wire x1="-2.6549" y1="-0.254" x2="-2.2537" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-0.2863" y1="-0.254" x2="0.2863" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="2.2537" y1="-0.254" x2="2.6549" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="0.2863" y1="-0.254" x2="2.2537" y2="-0.254" width="0.127" layer="27"/>
-<wire x1="-0.7863" y1="2.5485" x2="0.7863" y2="2.5485" width="0.127" layer="27" curve="-34.2936"/>
-<pad name="3" x="1.27" y="0" drill="0.8128" shape="octagon"/>
-<pad name="2" x="0" y="1.905" drill="0.8128" shape="octagon"/>
-<pad name="1" x="-1.27" y="0" drill="0.8128" shape="octagon"/>
-<text x="3.175" y="0.635" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="3.175" y="-1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.635" y="0.635" size="1.27" layer="27" ratio="10">2</text>
-<text x="-2.159" y="0" size="1.27" layer="27" ratio="10">1</text>
-<text x="1.143" y="0" size="1.27" layer="27" ratio="10">3</text>
-</package>
-</packages>
-<symbols>
-<symbol name="IGFET-EP-GDS">
-<wire x1="-2.54" y1="-2.54" x2="-1.2192" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0" y1="3.683" x2="0" y2="1.397" width="0.254" layer="94"/>
-<wire x1="0.635" y1="0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="0.635" y1="-0.635" x2="1.905" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-1.397" x2="0" y2="-3.683" width="0.254" layer="94"/>
-<wire x1="-1.143" y1="2.54" x2="-1.143" y2="-2.54" width="0.254" layer="94"/>
-<text x="-11.43" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-11.43" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<pin name="D" x="5.08" y="2.54" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="S" x="5.08" y="-2.54" visible="off" length="middle" direction="pas" rot="R180"/>
-<pin name="G" x="-5.08" y="-2.54" visible="off" length="short" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TP0602N3" prefix="Q">
-<description>&lt;b&gt;P-Channel Enhancement MOSFET&lt;/b&gt; -20V; -2A; 2,0Ohm</description>
-<gates>
-<gate name="G$1" symbol="IGFET-EP-GDS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TO-92">
-<connects>
-<connect gate="G$1" pin="D" pad="3"/>
-<connect gate="G$1" pin="G" pad="2"/>
-<connect gate="G$1" pin="S" pad="1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="frames">
 <description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
 <packages>
@@ -2582,6 +2500,87 @@ LETTER landscape</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Puffin">
+<packages>
+<package name="SOT-23">
+<description>BSS84 P-Channel Enhancement Mode Field-Effect Transistor</description>
+<smd name="3" x="0.5" y="0.7" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.45" y="-1.6" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="1.45" y="-1.6" dx="1" dy="1.4" layer="1"/>
+<wire x1="-1" y1="0.3" x2="2" y2="0.3" width="0.127" layer="51"/>
+<wire x1="2" y1="0.3" x2="2" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="2" y1="-1.2" x2="-1" y2="-1.2" width="0.127" layer="51"/>
+<wire x1="-1" y1="-1.2" x2="-1" y2="0.3" width="0.127" layer="51"/>
+<rectangle x1="0.2" y1="0.2" x2="0.8" y2="1" layer="51"/>
+<rectangle x1="-0.75" y1="-1.9" x2="-0.15" y2="-1.1" layer="51"/>
+<rectangle x1="1.15" y1="-1.9" x2="1.75" y2="-1.1" layer="51"/>
+<wire x1="-0.1" y1="0.2" x2="-1.1" y2="0.2" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="0.2" x2="-1.1" y2="-1" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-1" x2="-1" y2="-1" width="0.127" layer="21"/>
+<wire x1="0.15" y1="-1" x2="0.85" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.2" x2="2.1" y2="0.2" width="0.127" layer="21"/>
+<wire x1="2.1" y1="0.2" x2="2.1" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.1" y1="-1" x2="2" y2="-1" width="0.127" layer="21"/>
+<text x="-1.5" y="0.6" size="0.3048" layer="21">&gt;NAME</text>
+<text x="-0.4" y="-0.6" size="0.3048" layer="21">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="BSS84">
+<description>BSS84 P-Channel Enhancement Mode Field-Effect Transistor</description>
+<wire x1="-2.54" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
+<wire x1="2.54" y1="5.08" x2="2.54" y2="6.096" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-4.064" y1="5.08" x2="-4.064" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="6.096" x2="-2.54" y2="4.064" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.302" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.016" x2="4.572" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="4.572" y1="-1.016" x2="4.572" y2="6.096" width="0.254" layer="94"/>
+<wire x1="4.572" y1="6.096" x2="2.54" y2="6.096" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<polygon width="0.254" layer="94">
+<vertex x="2.286" y="2.54"/>
+<vertex x="0.762" y="3.556"/>
+<vertex x="0.762" y="1.524"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="4.572" y="2.032"/>
+<vertex x="3.81" y="3.302"/>
+<vertex x="5.334" y="3.302"/>
+</polygon>
+<wire x1="3.81" y1="1.778" x2="5.334" y2="1.778" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="3" x="2.54" y="7.62" visible="off" length="short" rot="R270"/>
+<text x="-8.128" y="6.858" size="1.778" layer="94">&gt;NAME</text>
+<text x="-8.128" y="-3.81" size="1.778" layer="94">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-4.064" y2="0" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BSS84">
+<description>BSS84 P-Channel Enhancement Mode Field-Effect Transistor</description>
+<gates>
+<gate name="G$1" symbol="BSS84" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT-23">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2608,11 +2607,11 @@ LETTER landscape</description>
 <part name="SJ2" library="jumper" deviceset="SJ2W" device=""/>
 <part name="SJ1" library="jumper" deviceset="SJ2W" device=""/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
-<part name="Q1" library="transistor-fet" deviceset="TP0602N3" device=""/>
 <part name="R3" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M05" device="PTH"/>
 <part name="FRAME1" library="frames" deviceset="LETTER_L" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="M03" device="SCREW"/>
+<part name="M1" library="Puffin" deviceset="BSS84" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2627,21 +2626,21 @@ LETTER landscape</description>
 <instance part="SJ3" gate="1" x="48.26" y="76.2" rot="R180"/>
 <instance part="SJ4" gate="1" x="48.26" y="81.28" rot="R180"/>
 <instance part="P+3" gate="VCC" x="30.48" y="86.36"/>
-<instance part="C1" gate="G$1" x="93.98" y="76.2"/>
+<instance part="C1" gate="G$1" x="88.9" y="76.2"/>
 <instance part="R1" gate="G$1" x="38.1" y="81.28"/>
 <instance part="R2" gate="G$1" x="38.1" y="76.2"/>
 <instance part="W1" gate="G$1" x="73.66" y="60.96"/>
 <instance part="SUPPLY1" gate="GND" x="73.66" y="38.1"/>
-<instance part="GND" gate="GND" x="93.98" y="71.12"/>
+<instance part="GND" gate="GND" x="88.9" y="71.12"/>
 <instance part="SJ2" gate="G$1" x="40.64" y="45.72" rot="MR0"/>
 <instance part="SJ1" gate="G$1" x="53.34" y="45.72"/>
 <instance part="P+4" gate="VCC" x="40.64" y="55.88"/>
-<instance part="Q1" gate="G$1" x="96.52" y="58.42"/>
 <instance part="R3" gate="G$1" x="106.68" y="76.2" rot="R90"/>
 <instance part="J1" gate="G$1" x="17.78" y="66.04" rot="MR180"/>
 <instance part="FRAME1" gate="G$1" x="-45.72" y="-40.64"/>
 <instance part="FRAME1" gate="G$2" x="101.6" y="-40.64"/>
-<instance part="J3" gate="J$1" x="129.54" y="66.04" rot="R180"/>
+<instance part="J2" gate="J$1" x="129.54" y="66.04" rot="R180"/>
+<instance part="M1" gate="G$1" x="99.06" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -2666,14 +2665,14 @@ LETTER landscape</description>
 <wire x1="73.66" y1="83.82" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="81.28" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
 <junction x="73.66" y="81.28"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="81.28" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
-<junction x="93.98" y="81.28"/>
+<junction x="88.9" y="81.28"/>
 <junction x="106.68" y="81.28"/>
-<pinref part="J3" gate="J$1" pin="1"/>
+<pinref part="J2" gate="J$1" pin="1"/>
 <wire x1="119.38" y1="81.28" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="68.58" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
 </segment>
@@ -2709,7 +2708,7 @@ LETTER landscape</description>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J3" gate="J$1" pin="3"/>
+<pinref part="J2" gate="J$1" pin="3"/>
 <pinref part="SUPPLY3" gate="GND" pin="GND"/>
 <wire x1="121.92" y1="63.5" x2="119.38" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="63.5" x2="119.38" y2="55.88" width="0.1524" layer="91"/>
@@ -2754,19 +2753,12 @@ LETTER landscape</description>
 <wire x1="48.26" y1="53.34" x2="58.42" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="PCTL" class="0">
-<segment>
-<pinref part="W1" gate="G$1" pin="PCTLZ"/>
-<pinref part="Q1" gate="G$1" pin="G"/>
-<wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="Q1" gate="G$1" pin="S"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="55.88" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="53.34" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -2789,15 +2781,23 @@ LETTER landscape</description>
 </segment>
 <segment>
 <pinref part="W1" gate="G$1" pin="IO"/>
-<pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="111.76" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="60.96" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<junction x="101.6" y="66.04"/>
 <wire x1="111.76" y1="66.04" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
 <label x="111.76" y="60.96" size="1.778" layer="95" rot="R270" xref="yes"/>
-<pinref part="J3" gate="J$1" pin="2"/>
+<pinref part="J2" gate="J$1" pin="2"/>
 <wire x1="111.76" y1="66.04" x2="121.92" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="3"/>
+<wire x1="101.6" y1="63.5" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
+<junction x="101.6" y="66.04"/>
+<junction x="111.76" y="66.04"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="W1" gate="G$1" pin="PCTLZ"/>
+<wire x1="88.9" y1="55.88" x2="91.44" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="M1" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
