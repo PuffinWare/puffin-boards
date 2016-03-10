@@ -563,6 +563,44 @@
 <text x="1.8" y="-1.94" size="1.016" layer="21" font="vector" ratio="15">&gt;VALUE</text>
 <rectangle x1="-0.57" y1="-0.2" x2="0.63" y2="0.2" layer="35"/>
 </package>
+<package name="MOLEX_MINILITE_TRAP_2">
+<wire x1="-3.2" y1="-3" x2="3.7" y2="-3" width="0.127" layer="21"/>
+<wire x1="3.7" y1="2.9" x2="-3.3" y2="2.9" width="0.127" layer="21"/>
+<smd name="2" x="-3.3" y="-1.5" dx="2.5" dy="1.4" layer="1"/>
+<smd name="1" x="-3.3" y="1.5" dx="2.5" dy="1.4" layer="1"/>
+<smd name="3" x="2.8" y="1.5" dx="2.5" dy="1.4" layer="1"/>
+<smd name="4" x="2.8" y="-1.5" dx="2.5" dy="1.4" layer="1"/>
+<rectangle x1="-4.2" y1="-1.9" x2="-3.2" y2="-1.1" layer="51"/>
+<rectangle x1="-4.2" y1="1.1" x2="-3.2" y2="1.9" layer="51"/>
+<rectangle x1="2.7" y1="1.1" x2="3.7" y2="1.9" layer="51"/>
+<rectangle x1="2.7" y1="-1.9" x2="3.7" y2="-1.1" layer="51"/>
+<wire x1="-3.7" y1="2.5" x2="-3.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="2.5" x2="-3.3" y2="2.9" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-2.3" x2="-3.7" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.2" y1="-3" x2="-3.7" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="3.7" y1="2.9" x2="3.7" y2="2.3" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-3" x2="3.7" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="3.7" y1="-0.7" x2="3.7" y2="0.7" width="0.127" layer="21"/>
+<wire x1="-3.7" y1="-0.7" x2="-3.7" y2="0.7" width="0.127" layer="21"/>
+<wire x1="2.9" y1="0.7" x2="2.9" y2="2.3" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.9" y1="-2.3" x2="2.9" y2="-0.7" width="0.127" layer="51" curve="-180"/>
+<wire x1="2.9" y1="2.8" x2="1.6" y2="2.8" width="0.127" layer="51"/>
+<wire x1="1.6" y1="2.8" x2="1.6" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.7" x2="1.6" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-2.3" x2="1.6" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-2.9" x2="2.9" y2="-2.9" width="0.127" layer="51"/>
+<wire x1="1.5" y1="2.3" x2="-2.6" y2="2.3" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="2.3" x2="-2.6" y2="0.7" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="0.7" x2="1.6" y2="0.7" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.7" x2="-2.6" y2="-0.7" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="-0.7" x2="-2.6" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="-2.3" x2="1.6" y2="-2.3" width="0.127" layer="51"/>
+<text x="3.9" y="-0.4" size="1.016" layer="51" font="vector" ratio="15">&gt;NAME</text>
+<wire x1="2.9" y1="-2.9" x2="2.9" y2="-2.3" width="0.127" layer="51"/>
+<wire x1="2.9" y1="-0.7" x2="2.9" y2="0.7" width="0.127" layer="51"/>
+<wire x1="2.9" y1="2.3" x2="2.9" y2="2.8" width="0.127" layer="51"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Resistors">
@@ -712,37 +750,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
 <rectangle x1="20.066" y1="-0.254" x2="20.574" y2="0.254" layer="51"/>
 <rectangle x1="22.606" y1="-0.254" x2="23.114" y2="0.254" layer="51"/>
-</package>
-</packages>
-</library>
-<library name="con-tycoelectronics">
-<description>&lt;b&gt;Tyco Electronics Connector&lt;/b&gt;&lt;p&gt;
-http://catalog.tycoelectronics.com&lt;br&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="RJ45-NO-SHIELD">
-<description>&lt;b&gt;RJ45 Low Profile&lt;/b&gt; No Shield&lt;p&gt;
-For all RJ45 N and Z Series Models&lt;br&gt;
-Source: www.tycoelectronics.com .. ENG_DS_1654001_1099_RJ_L_0507.pdf</description>
-<wire x1="-7.527" y1="10.819" x2="7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="8.4455" y1="-5.5118" x2="-8.4455" y2="-5.5118" width="0.01" layer="20"/>
-<wire x1="7.527" y1="-7.782" x2="-7.527" y2="-7.782" width="0.2032" layer="21"/>
-<wire x1="-7.527" y1="-7.782" x2="-7.527" y2="10.819" width="0.2032" layer="21"/>
-<wire x1="7.527" y1="10.819" x2="7.527" y2="-7.782" width="0.2032" layer="21"/>
-<pad name="4" x="-0.635" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="3" x="-1.905" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="2" x="-3.175" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="5" x="0.635" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="1" x="-4.445" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="6" x="1.905" y="8.89" drill="0.9" diameter="1.4"/>
-<pad name="7" x="3.175" y="6.35" drill="0.9" diameter="1.4"/>
-<pad name="8" x="4.445" y="8.89" drill="0.9" diameter="1.4"/>
-<text x="-9.525" y="-0.635" size="1.778" layer="25" rot="R90">&gt;NAME</text>
-<text x="-5.715" y="2.54" size="1.778" layer="27">&gt;VALUE</text>
-<rectangle x1="7.6" y1="-5.485" x2="8.875" y2="-4.342" layer="21"/>
-<rectangle x1="-8.875" y1="-5.485" x2="-7.625" y2="-4.342" layer="21"/>
-<hole x="-5.715" y="0" drill="3.2512"/>
-<hole x="5.715" y="0" drill="3.2512"/>
 </package>
 </packages>
 </library>
@@ -1176,14 +1183,6 @@ design rules under a new name.</description>
 <element name="E$29" library="SparkFun-Connectors" package="1X03" value="" x="54.61" y="27.94" rot="R90"/>
 <element name="E$30" library="SparkFun-Connectors" package="1X03" value="" x="57.15" y="27.94" rot="R90"/>
 <element name="E$31" library="SparkFun-Resistors" package="0805" value="" x="55.245" y="21.59" rot="R90"/>
-<element name="E$32" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="22.86" y="6.35"/>
-<element name="E$33" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="7.62" y="6.35"/>
-<element name="E$34" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="40.64" y="6.35"/>
-<element name="E$36" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="55.88" y="6.35"/>
-<element name="E$37" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="73.66" y="6.35"/>
-<element name="E$38" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="88.9" y="6.35"/>
-<element name="E$39" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="105.41" y="6.35"/>
-<element name="E$40" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="120.65" y="6.35"/>
 <element name="E$35" library="Puffin" package="DIP16-RELAY" value="" x="77.47" y="24.13" rot="R180"/>
 <element name="E$41" library="Puffin" package="SCREWTERM_0.2X3" value="" x="86.36" y="33.02" rot="R180"/>
 <element name="E$42" library="Puffin" package="SOT-23" value="" x="91.44" y="24.13"/>
@@ -1195,22 +1194,16 @@ design rules under a new name.</description>
 <element name="E$48" library="SparkFun-Resistors" package="0805" value="" x="12.7" y="48.895"/>
 <element name="E$49" library="SparkFun-Resistors" package="0805" value="" x="17.78" y="48.895"/>
 <element name="E$50" library="SparkFun-Resistors" package="0805" value="" x="15.24" y="40.005"/>
-<element name="E$51" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="7.62" y="44.45"/>
-<element name="E$59" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="53.34" y="44.45"/>
 <element name="E$60" library="Puffin" package="SOIC8" value="" x="81.28" y="44.45" rot="MR0"/>
 <element name="E$61" library="Puffin" package="MURATA_REG_HOR" value="" x="74.295" y="44.45" rot="R270"/>
 <element name="E$62" library="SparkFun-Resistors" package="0805" value="" x="78.74" y="48.895"/>
 <element name="E$63" library="SparkFun-Resistors" package="0805" value="" x="83.82" y="48.895"/>
 <element name="E$64" library="SparkFun-Resistors" package="0805" value="" x="81.28" y="40.005"/>
-<element name="E$65" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="73.66" y="44.45"/>
-<element name="E$66" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="88.9" y="44.45"/>
 <element name="E$67" library="Puffin" package="SOIC8" value="" x="113.03" y="44.45" rot="MR0"/>
 <element name="E$68" library="Puffin" package="MURATA_REG_HOR" value="" x="106.045" y="44.45" rot="R270"/>
 <element name="E$69" library="SparkFun-Resistors" package="0805" value="" x="110.49" y="48.895"/>
 <element name="E$70" library="SparkFun-Resistors" package="0805" value="" x="115.57" y="48.895"/>
 <element name="E$71" library="SparkFun-Resistors" package="0805" value="" x="113.03" y="40.005"/>
-<element name="E$72" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="105.41" y="44.45"/>
-<element name="E$73" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="120.65" y="44.45"/>
 <element name="E$74" library="optocoupler" package="MINI-FLAT-4" value="" x="92.075" y="20.32" rot="R180"/>
 <element name="E$75" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="" x="120.65" y="68.58"/>
 <element name="E$76" library="SparkFun-Electromechanical" package="TACTILE-PTH" value="" x="120.65" y="60.96"/>
@@ -1234,15 +1227,11 @@ design rules under a new name.</description>
 <element name="E$94" library="SparkFun-Resistors" package="0805" value="" x="142.24" y="48.895"/>
 <element name="E$95" library="SparkFun-Resistors" package="0805" value="" x="147.32" y="48.895"/>
 <element name="E$96" library="SparkFun-Resistors" package="0805" value="" x="144.78" y="40.005"/>
-<element name="E$97" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="137.16" y="44.45"/>
-<element name="E$98" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="152.4" y="44.45"/>
 <element name="E$99" library="Puffin" package="SOIC8" value="" x="144.78" y="6.35" rot="MR0"/>
 <element name="E$100" library="Puffin" package="MURATA_REG_HOR" value="" x="137.795" y="6.35" rot="R270"/>
 <element name="E$101" library="SparkFun-Resistors" package="0805" value="" x="142.24" y="10.795"/>
 <element name="E$102" library="SparkFun-Resistors" package="0805" value="" x="147.32" y="10.795"/>
 <element name="E$103" library="SparkFun-Resistors" package="0805" value="" x="144.78" y="1.905"/>
-<element name="E$104" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="137.16" y="6.35"/>
-<element name="E$105" library="con-tycoelectronics" package="RJ45-NO-SHIELD" value="" x="152.4" y="6.35"/>
 <element name="E$52" library="Puffin" package="SOIC8" value="" x="144.78" y="59.69"/>
 <element name="E$53" library="SparkFun-Connectors" package="1X03" value="" x="134.62" y="66.04" rot="R90"/>
 <element name="E$54" library="SparkFun-Connectors" package="1X03" value="" x="137.16" y="66.04" rot="R90"/>
@@ -1262,6 +1251,8 @@ design rules under a new name.</description>
 <element name="E$115" library="SparkFun-Resistors" package="0805" value="" x="12.7" y="86.36"/>
 <element name="E$116" library="SparkFun-Resistors" package="0805" value="" x="17.78" y="86.36"/>
 <element name="E$117" library="SparkFun-Resistors" package="0805" value="" x="15.24" y="77.47"/>
+<element name="E$118" library="Puffin" package="MOLEX_MINILITE_TRAP_2" value="" x="3.81" y="25.4" rot="MR0"/>
+<element name="E$119" library="Puffin" package="MOLEX_MINILITE_TRAP_2" value="" x="3.81" y="31.75" rot="MR0"/>
 </elements>
 <signals>
 <signal name="S$4">
