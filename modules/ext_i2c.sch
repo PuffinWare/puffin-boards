@@ -135,6 +135,8 @@
 <layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
@@ -286,12 +288,12 @@
 <pad name="5" x="0" y="10.16" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="6" x="0" y="12.7" drill="1.016" diameter="1.8796" rot="R180"/>
 <text x="0.4318" y="14.2748" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="1.524" y="-0.508" size="1.016" layer="21" font="vector" ratio="15">VIN</text>
-<text x="1.524" y="2.032" size="1.016" layer="21" font="vector" ratio="15">GND</text>
-<text x="1.524" y="7.112" size="1.016" layer="21" font="vector" ratio="15">SDA</text>
-<text x="1.524" y="9.652" size="1.016" layer="21" font="vector" ratio="15">SDC</text>
-<text x="1.524" y="4.572" size="1.016" layer="21" font="vector" ratio="15">3v3</text>
-<text x="1.524" y="12.192" size="1.016" layer="21" font="vector" ratio="15">AUX</text>
+<text x="4.064" y="-0.508" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">VIN</text>
+<text x="4.064" y="2.032" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="4.064" y="7.112" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SDA</text>
+<text x="4.064" y="9.652" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SDC</text>
+<text x="4.064" y="4.572" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">3v3</text>
+<text x="4.064" y="12.192" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">AUX</text>
 <wire x1="1.27" y1="12.065" x2="1.27" y2="13.335" width="0.2032" layer="21"/>
 <wire x1="1.27" y1="9.525" x2="1.27" y2="10.795" width="0.2032" layer="21"/>
 <wire x1="1.27" y1="6.985" x2="1.27" y2="8.255" width="0.2032" layer="21"/>
@@ -404,13 +406,13 @@
 <pad name="4" x="0" y="7.62" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="5" x="0" y="10.16" drill="1.016" diameter="1.8796" rot="R180"/>
 <pad name="6" x="0" y="12.7" drill="1.016" diameter="1.8796" rot="R180"/>
-<text x="-0.8382" y="14.2748" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
-<text x="1.143" y="-0.508" size="1.016" layer="21" font="vector" ratio="15">VIN</text>
-<text x="1.143" y="2.032" size="1.016" layer="21" font="vector" ratio="15">GND</text>
-<text x="1.143" y="7.112" size="1.016" layer="21" font="vector" ratio="15">SDA</text>
-<text x="1.143" y="9.652" size="1.016" layer="21" font="vector" ratio="15">SDC</text>
-<text x="1.143" y="4.572" size="1.016" layer="21" font="vector" ratio="15">3v3</text>
-<text x="1.143" y="12.192" size="1.016" layer="21" font="vector" ratio="15">AUX</text>
+<text x="-2.1082" y="14.2748" size="1.016" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-1.397" y="-0.508" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">VIN</text>
+<text x="-1.397" y="2.032" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="-1.397" y="7.112" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SDA</text>
+<text x="-1.397" y="9.652" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">SDC</text>
+<text x="-1.397" y="4.572" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">3v3</text>
+<text x="-1.397" y="12.192" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">AUX</text>
 </package>
 <package name="POT_3MM">
 <smd name="2" x="1.75" y="3.7" dx="1.6" dy="1.6" layer="1"/>
@@ -491,21 +493,23 @@
 <pin name="6" x="-5.08" y="12.7" visible="pad" length="middle" direction="pas" swaplevel="1"/>
 </symbol>
 <symbol name="POT_3MM">
-<pin name="3" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="3" x="0" y="2.54" visible="off" length="short" rot="R270"/>
 <pin name="1" x="0" y="-7.62" visible="off" length="short" rot="R90"/>
-<pin name="2" x="-5.08" y="0" visible="off" length="middle"/>
-<text x="-2.032" y="2.032" size="1.778" layer="95" font="vector" ratio="15" rot="R90">&gt;NAME</text>
-<text x="3.81" y="-5.08" size="1.778" layer="96" font="vector" ratio="15" rot="R90">&gt;VALUE</text>
-<wire x1="0" y1="-5.08" x2="-1.27" y2="-4.318" width="0.127" layer="94"/>
-<wire x1="-1.27" y1="-4.318" x2="1.27" y2="-3.556" width="0.127" layer="94"/>
-<wire x1="1.27" y1="-3.556" x2="-1.27" y2="-2.794" width="0.127" layer="94"/>
-<wire x1="-1.27" y1="-2.794" x2="1.27" y2="-2.032" width="0.127" layer="94"/>
-<wire x1="1.27" y1="-2.032" x2="-1.27" y2="-1.27" width="0.127" layer="94"/>
-<wire x1="-1.27" y1="-1.27" x2="1.27" y2="-0.508" width="0.127" layer="94"/>
-<wire x1="1.27" y1="-0.508" x2="-1.27" y2="0.254" width="0.127" layer="94"/>
-<wire x1="-1.27" y1="0.254" x2="1.27" y2="1.016" width="0.127" layer="94"/>
-<wire x1="1.27" y1="1.016" x2="-1.27" y2="1.778" width="0.127" layer="94"/>
-<wire x1="0" y1="2.54" x2="-1.27" y2="1.778" width="0.127" layer="94"/>
+<pin name="2" x="-5.08" y="-2.54" visible="off" length="middle"/>
+<text x="-1.778" y="-7.62" size="1.778" layer="95" font="vector" ratio="10" rot="R90">&gt;NAME</text>
+<text x="3.048" y="-7.62" size="1.778" layer="96" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
+<wire x1="0" y1="-5.08" x2="-1.016" y2="-4.572" width="0.127" layer="94"/>
+<wire x1="-1.016" y1="-4.572" x2="1.016" y2="-4.064" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-4.064" x2="-1.016" y2="-3.556" width="0.127" layer="94"/>
+<wire x1="-1.016" y1="-3.556" x2="1.016" y2="-3.048" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-3.048" x2="-1.016" y2="-2.54" width="0.127" layer="94"/>
+<wire x1="-1.016" y1="-2.54" x2="1.016" y2="-2.032" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-2.032" x2="-1.016" y2="-1.524" width="0.127" layer="94"/>
+<wire x1="-1.016" y1="-1.524" x2="1.016" y2="-1.016" width="0.127" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="-1.016" y2="-0.508" width="0.127" layer="94"/>
+<wire x1="0" y1="0" x2="-1.016" y2="-0.508" width="0.127" layer="94"/>
+<text x="-0.254" y="0" size="1.016" layer="97" rot="R90">CW</text>
+<text x="-0.254" y="-7.874" size="1.016" layer="97" rot="R90">CCW</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -4370,7 +4374,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$7" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="LX"/>
-<wire x1="68.58" y1="76.2" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="73.66" x2="68.58" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="68.58" y1="55.88" x2="86.36" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="55.88" x2="86.36" y2="48.26" width="0.1524" layer="91"/>
@@ -4384,7 +4388,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U1" gate="A" pin="LY"/>
 <wire x1="68.58" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="53.34" x2="88.9" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="76.2" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="73.66" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
 <junction x="78.74" y="53.34"/>
 <pinref part="J2" gate="G$1" pin="1"/>
@@ -4476,11 +4480,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="30.48" y="73.66"/>
 </segment>
 <segment>
-<wire x1="83.82" y1="81.28" x2="73.66" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="78.74" x2="73.66" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
-<wire x1="73.66" y1="81.28" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="78.74" x2="73.66" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="3"/>
-<junction x="73.66" y="81.28"/>
+<junction x="73.66" y="78.74"/>
 <pinref part="R4" gate="G$1" pin="3"/>
 </segment>
 </net>
