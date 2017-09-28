@@ -972,7 +972,8 @@
 <wire x1="-1.778" y1="-6.35" x2="-1.778" y2="-7.366" width="0.127" layer="51"/>
 <wire x1="-1.778" y1="-7.366" x2="-2.286" y2="-6.858" width="0.127" layer="51"/>
 <wire x1="-2.286" y1="-6.858" x2="-1.778" y2="-6.35" width="0.127" layer="51"/>
-<text x="-2.54" y="3.175" size="1.27" layer="21">&gt;NAME</text>
+<text x="-2.54" y="3.175" size="1.016" layer="21" font="vector" ratio="15">&gt;NAME</text>
+<pad name="5" x="0" y="0" drill="1.016" diameter="1.9304"/>
 </package>
 <package name="SCREWTERM_0.2X2">
 <wire x1="-2.54" y1="4.064" x2="7.62" y2="4.064" width="0.2032" layer="21"/>
@@ -998,15 +999,15 @@
 </package>
 <package name="G2RL_SPDT">
 <pad name="5" x="0" y="0" drill="1.016" diameter="1.9304"/>
-<text x="-6.54" y="26.795" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
+<text x="-9.95" y="27.065" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
 <pad name="1" x="-7.5" y="0" drill="1.016" diameter="1.9304"/>
-<pad name="C" x="0" y="20" drill="1.016" diameter="1.9304"/>
-<pad name="NO" x="-7.5" y="23.5" drill="1.016" diameter="1.9304"/>
-<pad name="NC" x="-7.5" y="16.5" drill="1.016" diameter="1.9304"/>
-<wire x1="2.6" y1="-2.3" x2="-10.1" y2="-2.3" width="0.127" layer="21"/>
-<wire x1="2.6" y1="26.7" x2="-10.1" y2="26.7" width="0.127" layer="21"/>
-<wire x1="2.6" y1="-2.3" x2="2.6" y2="26.7" width="0.127" layer="21"/>
-<wire x1="-10.1" y1="26.7" x2="-10.1" y2="-2.4" width="0.127" layer="21"/>
+<pad name="C" x="-7.5" y="20" drill="1.016" diameter="1.9304"/>
+<pad name="NO" x="0" y="23.5" drill="1.016" diameter="1.9304"/>
+<pad name="NC" x="0" y="16.5" drill="1.016" diameter="1.9304"/>
+<wire x1="2.5" y1="-2.3" x2="-10" y2="-2.3" width="0.127" layer="21"/>
+<wire x1="2.5" y1="26.5" x2="-10" y2="26.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.3" x2="2.5" y2="26.5" width="0.127" layer="21"/>
+<wire x1="-10" y1="26.5" x2="-10" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="-2.8" y1="4" x2="-1.8" y2="4" width="0.127" layer="51" curve="-180"/>
 <wire x1="-3.8" y1="4" x2="-2.8" y2="4" width="0.127" layer="51" curve="-180"/>
 <wire x1="-4.8" y1="4" x2="-3.8" y2="4" width="0.127" layer="51" curve="-180"/>
@@ -1015,20 +1016,20 @@
 <wire x1="-7.5" y1="4" x2="-7.5" y2="1.2" width="0.127" layer="51"/>
 <wire x1="-1.8" y1="4" x2="0" y2="4" width="0.127" layer="51"/>
 <wire x1="0" y1="4" x2="0" y2="1.2" width="0.127" layer="51"/>
-<wire x1="-6.3" y1="16.5" x2="-4" y2="16.5" width="0.127" layer="51"/>
-<wire x1="-4" y1="16.5" x2="-4" y2="19" width="0.127" layer="51"/>
-<wire x1="-6.3" y1="23.5" x2="-4" y2="23.5" width="0.127" layer="51"/>
-<wire x1="-4" y1="23.5" x2="-4" y2="21" width="0.127" layer="51"/>
-<wire x1="-4" y1="21" x2="-4.3" y2="21" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="21" x2="-4" y2="20.6" width="0.127" layer="51"/>
-<wire x1="-4" y1="20.6" x2="-3.7" y2="21" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="21" x2="-4" y2="21" width="0.127" layer="51"/>
-<wire x1="-4" y1="19" x2="-4.3" y2="19" width="0.127" layer="51"/>
-<wire x1="-4.3" y1="19" x2="-4" y2="19.4" width="0.127" layer="51"/>
-<wire x1="-4" y1="19.4" x2="-3.7" y2="19" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="19" x2="-4" y2="19" width="0.127" layer="51"/>
-<wire x1="-1.2" y1="20" x2="-3" y2="20" width="0.127" layer="51"/>
-<wire x1="-3" y1="20" x2="-4.4" y2="19.4" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="16.5" x2="-3.5" y2="16.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="16.5" x2="-3.5" y2="19" width="0.127" layer="51"/>
+<wire x1="-1.3" y1="23.5" x2="-3.5" y2="23.5" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="23.5" x2="-3.5" y2="21" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="21" x2="-3.8" y2="21" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="21" x2="-3.5" y2="20.6" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="20.6" x2="-3.2" y2="21" width="0.127" layer="51"/>
+<wire x1="-3.2" y1="21" x2="-3.5" y2="21" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="19" x2="-3.8" y2="19" width="0.127" layer="51"/>
+<wire x1="-3.8" y1="19" x2="-3.5" y2="19.4" width="0.127" layer="51"/>
+<wire x1="-3.5" y1="19.4" x2="-3.2" y2="19" width="0.127" layer="51"/>
+<wire x1="-3.2" y1="19" x2="-3.5" y2="19" width="0.127" layer="51"/>
+<wire x1="-6.2" y1="20" x2="-5" y2="20" width="0.127" layer="51"/>
+<wire x1="-5" y1="20" x2="-2.9" y2="19.4" width="0.127" layer="51"/>
 </package>
 <package name="SCREWTERM_0.2X3">
 <wire x1="-2.54" y1="4.064" x2="12.7" y2="4.064" width="0.2032" layer="21"/>
@@ -1057,20 +1058,20 @@
 <wire x1="-3.048" y1="3.302" x2="-2.54" y2="3.302" width="0.127" layer="51"/>
 </package>
 <package name="IRM_03_PS_3W">
-<pad name="ACN" x="-25.4" y="17.78" drill="1.016" diameter="1.9304"/>
-<pad name="ACL" x="-30.48" y="17.78" drill="1.016" diameter="1.9304"/>
+<pad name="ACN" x="25.4" y="17.78" drill="1.016" diameter="1.9304"/>
+<pad name="ACL" x="30.48" y="17.78" drill="1.016" diameter="1.9304"/>
 <pad name="NC" x="0" y="17.78" drill="1.016" diameter="1.9304"/>
 <pad name="V+" x="0" y="0" drill="1.016" diameter="1.9304"/>
-<pad name="V-" x="-5.08" y="0" drill="1.016" diameter="1.9304"/>
-<wire x1="-33.782" y1="20.828" x2="-33.782" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="-33.782" y1="20.828" x2="3.302" y2="20.828" width="0.127" layer="21"/>
-<wire x1="-33.782" y1="-3.048" x2="3.302" y2="-3.048" width="0.127" layer="21"/>
-<wire x1="3.302" y1="20.828" x2="3.302" y2="-3.048" width="0.127" layer="21"/>
+<pad name="V-" x="5.08" y="0" drill="1.016" diameter="1.9304"/>
+<wire x1="-3.302" y1="20.828" x2="-3.302" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="-3.302" y1="20.828" x2="33.782" y2="20.828" width="0.127" layer="21"/>
+<wire x1="-3.302" y1="-3.048" x2="33.782" y2="-3.048" width="0.127" layer="21"/>
+<wire x1="33.782" y1="20.828" x2="33.782" y2="-3.048" width="0.127" layer="21"/>
 <text x="-0.254" y="1.524" size="1.016" layer="51" font="vector" ratio="15">+</text>
-<text x="-5.334" y="1.524" size="1.016" layer="51" font="vector" ratio="15">-</text>
-<text x="-31.75" y="15.24" size="1.016" layer="51" font="vector" ratio="15">ACL</text>
-<text x="-26.67" y="15.24" size="1.016" layer="51" font="vector" ratio="15">ACN</text>
-<text x="-33.02" y="21.59" size="1.016" layer="21" font="vector" ratio="15">&gt;NAME</text>
+<text x="4.826" y="1.524" size="1.016" layer="51" font="vector" ratio="15">-</text>
+<text x="29.21" y="15.24" size="1.016" layer="51" font="vector" ratio="15">ACL</text>
+<text x="24.13" y="15.24" size="1.016" layer="51" font="vector" ratio="15">ACN</text>
+<text x="-2.54" y="21.59" size="1.016" layer="21" font="vector" ratio="15">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -2939,15 +2940,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="149.86" y1="55.88" x2="152.4" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="73.66" x2="160.02" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="73.66" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="ST2" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="NC"/>
@@ -2957,24 +2949,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="162.56" y1="73.66" x2="165.1" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="ST2" gate="G$1" pin="3"/>
-<wire x1="165.1" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="71.12" x2="157.48" y2="78.74" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="NO"/>
-<wire x1="157.48" y1="78.74" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R6" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="91.44" x2="160.02" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="91.44" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="ST3" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$15" class="0">
 <segment>
 <pinref part="ST3" gate="G$1" pin="2"/>
@@ -2982,24 +2956,6 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <wire x1="162.56" y1="91.44" x2="162.56" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="NC"/>
 <wire x1="162.56" y1="86.36" x2="154.94" y2="86.36" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="ST3" gate="G$1" pin="3"/>
-<wire x1="165.1" y1="88.9" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="88.9" x2="157.48" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="NO"/>
-<wire x1="157.48" y1="96.52" x2="154.94" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$18" class="0">
-<segment>
-<pinref part="R7" gate="G$1" pin="C"/>
-<wire x1="154.94" y1="109.22" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="109.22" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="ST4" gate="G$1" pin="1"/>
-<wire x1="160.02" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -3013,11 +2969,56 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="NO"/>
-<wire x1="154.94" y1="114.3" x2="157.48" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="114.3" x2="157.48" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="ST4" gate="G$1" pin="3"/>
 <wire x1="157.48" y1="106.68" x2="165.1" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="C"/>
+<wire x1="157.48" y1="106.68" x2="157.48" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$25" class="0">
+<segment>
+<pinref part="R7" gate="G$1" pin="NO"/>
+<pinref part="ST4" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="154.94" y1="114.3" x2="160.02" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="114.3" x2="160.02" y2="111.76" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="NO"/>
+<wire x1="154.94" y1="96.52" x2="160.02" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="96.52" x2="160.02" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="ST3" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$16" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="NO"/>
+<wire x1="154.94" y1="78.74" x2="160.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="78.74" x2="160.02" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="ST2" gate="G$1" pin="1"/>
+<wire x1="160.02" y1="76.2" x2="165.1" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$17" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="C"/>
+<wire x1="154.94" y1="73.66" x2="157.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="73.66" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="ST2" gate="G$1" pin="3"/>
+<wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R6" gate="G$1" pin="C"/>
+<wire x1="154.94" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="91.44" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="ST3" gate="G$1" pin="3"/>
+<wire x1="157.48" y1="88.9" x2="165.1" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
