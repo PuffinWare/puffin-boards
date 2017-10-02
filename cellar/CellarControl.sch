@@ -3362,7 +3362,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <pinref part="K1" gate="G$1" pin="EMIT"/>
 </segment>
 </net>
-<net name="N$17" class="0">
+<net name="LCL" class="0">
 <segment>
 <wire x1="193.04" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="73.66" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
@@ -3381,7 +3381,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="193.04" y1="99.06" x2="193.04" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$18" class="0">
+<net name="LDA" class="0">
 <segment>
 <wire x1="200.66" y1="88.9" x2="220.98" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="71.12" x2="200.66" y2="88.9" width="0.1524" layer="91"/>

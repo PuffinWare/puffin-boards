@@ -3300,7 +3300,7 @@ These are standard reverse protection diodes and small signal diodes. SMA packag
 <part name="RLY1" library="Puffin" deviceset="HK19F_5V_DPDT_RELAY" device=""/>
 <part name="RLY2" library="Puffin" deviceset="HK19F_5V_DPDT_RELAY" device=""/>
 <part name="ST2" library="Puffin" deviceset="SCREWTERM_3" device=""/>
-<part name="ST3" library="Puffin" deviceset="SCREWTERM_3" device=""/>
+<part name="ST1" library="Puffin" deviceset="SCREWTERM_3" device=""/>
 <part name="T2" library="Puffin" deviceset="BC817" device=""/>
 <part name="T1" library="Puffin" deviceset="BC817" device=""/>
 <part name="OK2" library="optocoupler" deviceset="LTV816" device="S"/>
@@ -3397,7 +3397,7 @@ Bypass</text>
 <instance part="RLY1" gate="G$1" x="68.58" y="101.6" rot="R90"/>
 <instance part="RLY2" gate="G$1" x="68.58" y="38.1" rot="R90"/>
 <instance part="ST2" gate="G$1" x="91.44" y="116.84" rot="MR0"/>
-<instance part="ST3" gate="G$1" x="91.44" y="53.34" rot="MR0"/>
+<instance part="ST1" gate="G$1" x="91.44" y="53.34" rot="MR0"/>
 <instance part="T2" gate="G$1" x="53.34" y="17.78"/>
 <instance part="T1" gate="G$1" x="53.34" y="81.28"/>
 <instance part="OK2" gate="G$1" x="27.94" y="20.32"/>
@@ -3912,7 +3912,7 @@ Bypass</text>
 <pinref part="RLY2" gate="G$1" pin="C1"/>
 <wire x1="76.2" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="40.64" x2="81.28" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="ST3" gate="G$1" pin="1"/>
+<pinref part="ST1" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="48.26" x2="83.82" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="48.26" x2="81.28" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="60.96" x2="55.88" y2="60.96" width="0.1524" layer="91"/>
@@ -3932,7 +3932,7 @@ Bypass</text>
 <wire x1="58.42" y1="58.42" x2="58.42" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="RLY2" gate="G$1" pin="NC2"/>
 <wire x1="58.42" y1="45.72" x2="60.96" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="ST3" gate="G$1" pin="3"/>
+<pinref part="ST1" gate="G$1" pin="3"/>
 <wire x1="83.82" y1="53.34" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
 <junction x="78.74" y="53.34"/>
 </segment>
@@ -3944,7 +3944,7 @@ Bypass</text>
 <pinref part="RLY2" gate="G$1" pin="NO2"/>
 <wire x1="76.2" y1="55.88" x2="60.96" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="55.88" x2="60.96" y2="50.8" width="0.1524" layer="91"/>
-<pinref part="ST3" gate="G$1" pin="2"/>
+<pinref part="ST1" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="50.8" x2="76.2" y2="50.8" width="0.1524" layer="91"/>
 <junction x="76.2" y="50.8"/>
 </segment>
