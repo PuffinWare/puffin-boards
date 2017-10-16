@@ -997,12 +997,12 @@
 <wire x1="-3.048" y1="3.302" x2="-2.54" y2="3.302" width="0.127" layer="51"/>
 </package>
 <package name="G2RL_SPDT">
-<pad name="5" x="0" y="0" drill="1.016" diameter="1.9304"/>
+<pad name="5" x="0" y="0" drill="1.2" diameter="2.1844"/>
 <text x="-9.95" y="27.065" size="1.27" layer="21" font="vector" ratio="15">&gt;NAME</text>
-<pad name="1" x="-7.5" y="0" drill="1.016" diameter="1.9304"/>
-<pad name="C" x="-7.5" y="20" drill="1.016" diameter="1.9304"/>
-<pad name="NO" x="0" y="23.5" drill="1.016" diameter="1.9304"/>
-<pad name="NC" x="0" y="16.5" drill="1.016" diameter="1.9304"/>
+<pad name="1" x="-7.5" y="0" drill="1.2" diameter="2.1844"/>
+<pad name="C" x="-7.5" y="20" drill="1.2" diameter="2.1844"/>
+<pad name="NO" x="0" y="23.5" drill="1.2" diameter="2.1844"/>
+<pad name="NC" x="0" y="16.5" drill="1.2" diameter="2.1844"/>
 <wire x1="2.5" y1="-2.3" x2="-10" y2="-2.3" width="0.127" layer="21"/>
 <wire x1="2.5" y1="26.5" x2="-10" y2="26.5" width="0.127" layer="21"/>
 <wire x1="2.5" y1="-2.3" x2="2.5" y2="26.5" width="0.127" layer="21"/>
