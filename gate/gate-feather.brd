@@ -9,7 +9,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
@@ -39,8 +39,8 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -191,7 +191,7 @@
 <wire x1="61.468" y1="68.199" x2="44.45" y2="68.199" width="0.0254" layer="20"/>
 <text x="60.071" y="53.975" size="1.016" layer="21" font="vector" ratio="15" rot="SR270">B-OUT</text>
 <text x="60.071" y="21.59" size="1.016" layer="21" font="vector" ratio="15" rot="SR270">7-36VDC</text>
-<text x="11.43" y="1.27" size="1.27" layer="21" font="vector" ratio="15">v3.0</text>
+<text x="12.7" y="1.27" size="1.27" layer="21" font="vector" ratio="15" rot="R90">Feather 3</text>
 <text x="57.404" y="22.098" size="1.016" layer="21" font="vector" ratio="15" rot="SR0">ACT</text>
 <text x="60.071" y="30.734" size="1.016" layer="21" font="vector" ratio="15" rot="SR270">B-IN</text>
 <text x="60.071" y="40.894" size="1.016" layer="21" font="vector" ratio="15" rot="SR270">A-IN</text>
@@ -210,7 +210,7 @@
 <text x="60.071" y="27.686" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90">B-IN</text>
 <text x="60.071" y="15.24" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90">7-36VDC</text>
 <text x="60.071" y="11.303" size="1.016" layer="22" font="vector" ratio="15" rot="SMR90">GND</text>
-<text x="15.24" y="2.54" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">v3.0</text>
+<text x="12.827" y="11.176" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">Feather 3</text>
 <text x="29.718" y="0.127" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">GND</text>
 <text x="29.718" y="7.874" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">5V</text>
 <text x="22.098" y="7.874" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">EI</text>
@@ -220,10 +220,16 @@
 <text x="22.098" y="0.635" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">EO</text>
 <text x="24.638" y="0.635" size="1.016" layer="25" font="vector" ratio="15" rot="SR90">DO</text>
 <polygon width="0.1524" layer="42">
-<vertex x="42.926" y="19.304"/>
-<vertex x="55.88" y="19.304"/>
-<vertex x="55.88" y="17.272"/>
-<vertex x="42.926" y="17.272"/>
+<vertex x="40.64" y="19.685"/>
+<vertex x="51.054" y="19.685"/>
+<vertex x="51.054" y="16.891"/>
+<vertex x="40.64" y="16.891"/>
+</polygon>
+<polygon width="0.1524" layer="41">
+<vertex x="40.64" y="19.685"/>
+<vertex x="57.912" y="19.685"/>
+<vertex x="57.912" y="16.891"/>
+<vertex x="40.64" y="16.891"/>
 </polygon>
 </plain>
 <libraries>
